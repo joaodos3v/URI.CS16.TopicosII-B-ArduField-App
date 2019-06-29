@@ -7,7 +7,9 @@ const RootStack = createStackNavigator({
   SignIn: {
     screen: SignIn
   },
-  // LedMatrix,
+  LedMatrix: {
+    screen: LedMatrix
+  },
 });
 
 const Routes = createAppContainer(RootStack);

@@ -31,10 +31,11 @@ const ErrorMessage = styled.Text`
   marginHorizontal: 20px;
 `;
 
+// backgroundColor: #FC6663;
 const Button = styled.TouchableHighlight`
   padding: 20px;
   borderRadius: 5px;
-  backgroundColor: #FC6663;
+  backgroundColor: #d13e3b;
   alignSelf: stretch;
   margin: 15px;
   marginHorizontal: 20px;

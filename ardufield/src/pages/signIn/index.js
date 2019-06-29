@@ -45,8 +45,8 @@ export default class SignIn extends Component {
       this.setState({ error: 'Preencha usuário e senha para continuar!' }, () => false);
     } else {
       try {
-        const user = 'joao@ardufield.com.br';
-        const pass = '123456';
+        const user = '1';
+        const pass = '1';
         
         if( this.state.email === user  &&  this.state.password === pass ) {
           const resetAction = StackActions.reset({
@@ -73,7 +73,7 @@ export default class SignIn extends Component {
 
         <StatusBar hidden />
 
-        <Logo source={require('../../images/airbnb_logo.png')} resizeMode="contain" />
+        <Logo source={require('../../images/ardufield_logo.png')} resizeMode="contain" />
 
         <Input
           placeholder="Endereço de e-mail"
