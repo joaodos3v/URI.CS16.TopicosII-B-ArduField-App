@@ -19,6 +19,7 @@ export default class SignIn extends Component {
 
   static navigationOptions = {
     header: null,
+    tabBarVisible: false,
   };
 
 
