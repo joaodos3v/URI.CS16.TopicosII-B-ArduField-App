@@ -12,7 +12,7 @@ const Routes = createAppContainer(
       LedMatrix: {
         screen: LedMatrix,
         navigationOptions: {
-          title: 'Matriz de LED',
+          title: 'ArduField',
           headerTitleStyle: {
             textAlign: 'left',
             fontSize: 20

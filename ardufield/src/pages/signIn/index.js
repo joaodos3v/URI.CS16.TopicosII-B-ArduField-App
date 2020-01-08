@@ -46,8 +46,8 @@ export default class SignIn extends Component {
       this.setState({ error: 'Preencha usuário e senha para continuar!' }, () => false);
     } else {
       try {
-        const user = '1';
-        const pass = '1';
+        const user = 'a';
+        const pass = 'a';
         
         if( this.state.email === user  &&  this.state.password === pass ) {
           const resetAction = StackActions.reset({
